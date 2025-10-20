@@ -1,4 +1,4 @@
-# YouthConnect After-School Program Dataset
+# YouthConnect Program Dataset
 ## Demo Data for "From Data to Decisions" Session
 
 ---
