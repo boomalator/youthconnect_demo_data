@@ -1,0 +1,6 @@
+location_id,location_name,neighborhood,city,venue,median_income,youth_pop,capacity
+1,Riversdale Youth Hub,Riversdale,Saskatoon,Roxy Theatre,48500,1200,45
+2,Cathedral Youth Centre,Cathedral,Regina,Westminster United Church,52000,980,40
+3,North Central Connect,North Central,Regina,mâmawêyatitân centre,38200,1450,50
+4,East Hill Youth Program,East Hill,Prince Albert,St. Alban's Anglican Cathedral,44800,890,35
+5,Downtown Moose Jaw Hub,Downtown,Moose Jaw,Moose Jaw Cultural Centre,46200,720,30

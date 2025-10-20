@@ -1,0 +1,26 @@
+year,neighborhood,city,college_pct,unemp_pct,trade_pct,non_trade_pct
+2020,Riversdale,Saskatoon,76.5,4.6,22.3,15.7
+2021,Riversdale,Saskatoon,79.7,4.3,22.4,13.6
+2022,Riversdale,Saskatoon,80.3,4.7,24.8,16.2
+2023,Riversdale,Saskatoon,82.7,4.5,25.3,15.9
+2024,Riversdale,Saskatoon,83,3.7,26.4,14.3
+2020,Cathedral,Regina,78.1,4.9,21.3,15.1
+2021,Cathedral,Regina,78.1,5.1,23.9,14.5
+2022,Cathedral,Regina,79.8,4.3,24.3,15.5
+2023,Cathedral,Regina,83.8,4.5,25.9,16
+2024,Cathedral,Regina,84.5,3.9,26.1,15.4
+2020,North Central,Regina,77.3,4.6,22.7,16.1
+2021,North Central,Regina,80.9,4.5,22.4,14.5
+2022,North Central,Regina,80.1,4,23.5,16
+2023,North Central,Regina,81.4,4.6,25.9,15.2
+2024,North Central,Regina,83.4,4.3,27.1,16
+2020,East Hill,Prince Albert,78.1,4.7,21.7,15.7
+2021,East Hill,Prince Albert,78.8,4.7,23.3,14.4
+2022,East Hill,Prince Albert,81.1,4.4,24.1,14.2
+2023,East Hill,Prince Albert,81.3,3.9,24.7,13.5
+2024,East Hill,Prince Albert,84.1,3.3,27.4,13.6
+2020,Downtown,Moose Jaw,78,4.6,21.9,13.9
+2021,Downtown,Moose Jaw,79.8,5.2,23.3,14.3
+2022,Downtown,Moose Jaw,80.4,4.7,25.2,14.8
+2023,Downtown,Moose Jaw,83.1,4.3,24.7,14
+2024,Downtown,Moose Jaw,84.7,3.4,27.4,16.3
