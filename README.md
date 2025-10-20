@@ -65,6 +65,26 @@ Individual participant records across 5 years
 
 ---
 
+### 2b. **participants_demographics.csv** (~815 rows)
+Demographic details for participants (joins to participants via participant_id)
+
+| Field | Type | Description |
+|-------|------|-------------|
+| participant_id | INT | Foreign key to participants |
+| fileAs | NVARCHAR(102) | Display name (e.g., "Smith, Jane") |
+| givenname | NVARCHAR(50) | First name |
+| surname | NVARCHAR(50) | Last name |
+| birthdate | DATE | Date of birth |
+| gender | VARCHAR(20) | Gender identity |
+| Address_1 | NVARCHAR(70) | Street address |
+| city | NVARCHAR(35) | City |
+| province | NVARCHAR(4) | Province code (SK, AB, MB) |
+| postalCode | NVARCHAR(12) | Canadian postal code |
+
+**Note:** This table simulates personally identifiable information (PII) for demonstration purposes. Names and birthdates are fictitious. Street addresses may or may not exist.
+
+---
+
 ### 3. **waitlist.csv** (25 rows)
 Unmet demand (5 locations × 5 years)
 
@@ -189,6 +209,20 @@ CREATE TABLE participants (
     FOREIGN KEY (location_id) REFERENCES locations(location_id)
 );
 
+CREATE TABLE participants_demographics (
+    participant_id INT PRIMARY KEY,
+    fileAs NVARCHAR(102),
+    givenname NVARCHAR(50),
+    surname NVARCHAR(50),
+    birthdate DATE,
+    gender VARCHAR(20),
+    Address_1 NVARCHAR(70),
+    city NVARCHAR(35),
+    province NVARCHAR(4),
+    postalCode NVARCHAR(12),
+    FOREIGN KEY (participant_id) REFERENCES participants(participant_id)
+);
+
 CREATE TABLE waitlist (
     year INT NOT NULL,
     location_id INT NOT NULL,
@@ -271,6 +305,7 @@ youthconnect-demo-data/
 ├── DATA_DICTIONARY.md
 ├── locations.csv
 ├── participants.csv
+├── participants_demographics.csv
 ├── participants_messy.csv
 ├── waitlist.csv
 ├── regional_bench.csv
